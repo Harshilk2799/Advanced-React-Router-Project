@@ -9,6 +9,7 @@ import Profile from "./pages/Profile";
 import Users from "./pages/Users";
 import RootLayout from "./pages/RootLayout";
 import ErrorPage from "./pages/ErrorPage";
+import UserDetail from "./pages/UserDetail";
 
 // Way 2
 // const appRoutesDefination = createRoutesFromElements(
@@ -30,6 +31,7 @@ const appRouter = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/profile", element: <Profile /> },
       { path: "/users", element: <Users /> },
+      { path: "/users/:userId", element: <UserDetail /> },
     ],
   },
 ]);
