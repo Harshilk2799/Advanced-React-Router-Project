@@ -58,6 +58,11 @@ header a.active {
   color: white;
 }
 
+/* .nav-link a.active {
+  background: var(--primary);
+  color: white;
+} */
+
 /* Page content */
 main {
   max-width: 960px;
