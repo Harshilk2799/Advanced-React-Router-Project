@@ -33,6 +33,9 @@ function MainNavigation() {
             Users
           </NavLink> */}
         </li>
+        <li>
+          <NavLink to="/students">Students</NavLink>
+        </li>
       </ul>
     </header>
   );
